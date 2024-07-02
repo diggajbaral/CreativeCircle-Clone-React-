@@ -1,0 +1,35 @@
+@import "common";
+@import "variable";
+
+.Error {
+    .row {
+        h1 {
+            font-size: 4rem;
+            color: $PrimeColor;
+            font-family: "Playwrite NG Modern", cursive;
+            line-height: 1.5em;
+
+            span {
+                font-weight: 300;
+                font-style: italic;
+                color: red;
+            }
+        }
+
+        p {
+            margin-top: 30px;
+        }
+
+        .Images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                max-width: 100%;
+                height: 450px;
+                mix-blend-mode: multiply;
+            }
+        }
+    }
+}
